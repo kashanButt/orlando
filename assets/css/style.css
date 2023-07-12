@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap");
+:root {
+  --black: black;
+  --red: #a30000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1349px;
+}
+.banner {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.btn {
+  text-transform: uppercase;
+  background-color: var(--red);
+  padding: 2% 5%;
+  color: white;
+  border: 1px solid var(--red);
+  transition: 0.2s ease all;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: var(--red);
+}
+.heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.span {
+  color: var(--red);
+}
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  letter-spacing: 1px;
+}
+.header {
+  width: 100%;
+}
+.header > .upperHeader {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.header > .upperHeader > .icons {
+  width: 44%;
+  padding: 1%;
+}
+.header > .upperHeader > .header-info {
+  width: 55%;
+  display: flex;
+  margin: auto;
+}
+.header > .upperHeader > .header-info > .phone i,
+.header > .upperHeader > .header-info > .location i,
+.header > .upperHeader > .header-info > .workHours i {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.header > .upperHeader > .header-info > .phone {
+  width: 20%;
+  padding: 1%;
+  display: flex;
+  text-align: center;
+}
+.header > .upperHeader > .header-info > .location {
+  width: 54%;
+  padding: 1%;
+  display: flex;
+  text-align: right;
+}
+.header > .upperHeader > .header-info > .workHours {
+  width: 20%;
+  padding: 1%;
+  display: flex;
+  text-align: center;
+}
+.header > .headerNav {
+  width: 100%;
+  display: flex;
+  background-color: var(--red);
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.header > .headerNav > .headerLogo {
+  width: 19%;
+  padding: 1%;
+}
+.header > .headerNav > .navigation {
+  width: 79%;
+  padding: 1%;
+}
+.header > .headerNav > .navigation > nav {
+  width: 63%;
+  float: right;
+  margin: auto;
+}
+.header > .headerNav > .navigation > nav > ul > li {
+  float: left;
+  margin-left: 40px;
+  padding: 1%;
+  text-align: right;
+  cursor: pointer;
+}
+.homeSearchOptions {
+  width: 95%;
+  margin: 20px auto;
+}
+.homeSearchOptions > .searchOptions {
+  width: 100%;
+}
+.homeSearchOptions > .searchOptions > form > .condition,
+.homeSearchOptions > .searchOptions > form > .make,
+.homeSearchOptions > .searchOptions > form > .model,
+.homeSearchOptions > .searchOptions > form > .year,
+.homeSearchOptions > .searchOptions > form > .searchBtn {
+  width: 17%;
+  padding: 1%;
+  margin: 1%;
+  background-color: var(--red);
+}
+.homeSearchOptions > .searchOptions > form > .condition {
+  margin-left: 0;
+}
+.homeSearchOptions > .searchOptions > form > .condition select,
+.homeSearchOptions > .searchOptions > form > .make select,
+.homeSearchOptions > .searchOptions > form > .model select,
+.homeSearchOptions > .searchOptions > form > .year select,
+.homeSearchOptions > .searchOptions > form > .searchBtn button {
+  color: white;
+  width: 99%;
+  padding: 1%;
+  background-color: inherit;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.homeSearchOptions > .searchOptions > form > .condition select:focus,
+.homeSearchOptions > .searchOptions > form > .make select:focus,
+.homeSearchOptions > .searchOptions > form > .model select:focus,
+.homeSearchOptions > .searchOptions > form > .year select:focus {
+  outline: none;
+}
+.homeSearchOptions > .searchOptions > form > .searchBtn {
+  transition: 0.2s ease all;
+  border: 1px solid var(--red);
+}
+.homeSearchOptions > .searchOptions > form > .searchBtn:hover {
+  background-color: white;
+}
+.homeSearchOptions > .searchOptions > form > .searchBtn:hover button {
+  color: var(--red);
+}
+.homeBanner {
+  width: 100%;
+  height: 470px;
+  position: relative;
+  color: white;
+  background-image: url(../../../images/Home/home-banner.webp);
+  display: flex;
+}
+.homeBanner > .bannerContent {
+  width: 50%;
+  margin: auto 0;
+  margin-left: 10px;
+  position: relative;
+}
+.homeBanner h1 {
+  font-size: 50px;
+}
+.homeBanner > .bannerContent > button {
+  margin-top: 10px;
+}
+.workSamplesSliderBtns {
+  width: 100%;
+}
+.slider-btns {
+  width: 10%;
+  padding: 1%;
+  margin: auto;
+}
+.slider-wrapper {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.slides-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.slide-arrow {
+  margin: auto;
+  background-color: var(--ornage);
+  border: 1px solid var(--ornage);
+  font-size: 50px;
+  padding: 0% 17%;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s ease all;
+}
+.slide-arrow:hover,
+.slide-arrow:focus {
+  background-color: inherit;
+  color: var(--ornage);
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 25%;
+  margin: 1%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.homeCarCompanies {
+  width: 100%;
+  margin: 40px 0;
+}
+.homeCarCompanies > .companies {
+  width: 90%;
+  margin: auto;
+}
+.homeCarCompanies > .companies > .company {
+  width: 9%;
+  height: 50px;
+  margin: 2%;
+  padding: 1%;
+  box-shadow: 3px 3px 7px 0 var(--red);
+}
+.homeCarCompanies > .companies > .company img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.homeRecentCars {
+  margin: 40px 0;
+}
+.homeRecentCars > .recentCars {
+  width: 100%;
+}
+.homeRecentCars > .recentCars > .cars {
+  box-shadow: 0 0 1px 0;
+  width: 31%;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}
+.homeRecentCars > .recentCars > .cars > h3,
+.homeRecentCars > .recentCars > .cars > span,
+.homeRecentCars > .recentCars > .cars > button {
+  margin-top: 10px;
+}
+.homeRecentCars > .recentCars > .cars > img {
+  width: 100%;
+  height: 400px;
+}
+.homeServiceInfo {
+  margin: 40px 0;
+}
+.homeServiceInfo > .service {
+  width: 30%;
+  background-image: url(../../../images/Home/homeServiceBg.webp);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 2%;
+  margin: 1%;
+  color: white;
+  text-align: center;
+}
+.homeServiceInfo > .service > .content > h3,
+.homeServiceInfo > .service > .content > p,
+.homeServiceInfo > .service > .content > button {
+  margin-top: 10px;
+}
+.homeServiceInfo > .service > img {
+  width: 100%;
+  height: 100px;
+}
+.homeWhyChooseUs {
+  margin: 40px 0;
+  text-align: center;
+}
+.homeWhyChooseUs > .btn {
+  padding: 1% 3%;
+}
+.homeWhyChooseUs h4,
+.homeWhyChooseUs p {
+  margin-top: 10px;
+}
+.homeWhyChooseUs > .whyChooseUs > .financing,
+.homeWhyChooseUs > .whyChooseUs > .brands,
+.homeWhyChooseUs > .whyChooseUs > .trust,
+.homeWhyChooseUs > .whyChooseUs > .maintenance {
+  width: 22%;
+  margin: 1%;
+  padding: 2%;
+}
+.homeWhyChooseUs > .whyChooseUs > .financing > img,
+.homeWhyChooseUs > .whyChooseUs > .brands > img,
+.homeWhyChooseUs > .whyChooseUs > .trust > img,
+.homeWhyChooseUs > .whyChooseUs > .maintenance > img {
+  width: 100%;
+  height: 100px;
+}
