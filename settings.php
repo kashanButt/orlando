@@ -1,14 +1,14 @@
 <?php
 $settings = [
     'site' => [
-        'base_url' => __DIR__,
-        'file_url' => __DIR__,
+        'base_url' => 'http://localhost/projects/joseph/website',
+        'file_url' => '/projects/joseph/website/',
         'site_name' => 'New Project',
         'seperator' => '-',
     ],
     'assets' => [
         'css' => __DIR__ . '/assets/css/',
-        'images' => '../images/',
+        'images' => 'http://localhost/projects/joseph/images/',
         'js' => __DIR__ . '/assets/js/',
     ]
 ];

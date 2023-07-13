@@ -199,18 +199,50 @@ include_once './partials/header.php';
 </div>
 <div class="homeBlogs">
     <h2 class="heading">The Latest New Car Releases and Expert Reviews</h2>
-    <div class="blogs">
-        <img src="<?php echo $img_url ?>/home/blog-img-01.webp" alt="">
-        <span>Expert View</span>
-        <h4>2023 Land Rover Sport Review: A Recular Mix of Elegance and Awkwardness</h4>
-        <hr class="hr">
-        <div class="blogProfile flex">
-            <div class="profileImg">
-                <img src="" alt="">
+    <div class="blogs flex">
+        <div class="blog">
+            <img src="<?php echo $img_url ?>/home/blog-img-01.webp" alt="">
+            <span>Expert View</span>
+            <h4>2023 Land Rover Sport Review: A Recular Mix of Elegance and Awkwardness</h4>
+            <hr class="hr">
+            <div class="blogProfile flex">
+                <div class="profileImg">
+                    <img src="" alt="">
+                </div>
+                <div class="profileInfo">
+                    <span>Jennifer Gelger</span>
+                    <span>News Editor</span>
+                </div>
             </div>
-            <div class="profileInfo">
-                <span>Jennifer Gelger</span>
-                <span>News Editor</span>
+        </div>
+        <div class="blog">
+            <img src="<?php echo $img_url ?>/home/blog-img-02.webp" alt="">
+            <span>Expert View</span>
+            <h4>2023 Land Rover Sport Review: A Recular Mix of Elegance and Awkwardness</h4>
+            <hr class="hr">
+            <div class="blogProfile flex">
+                <div class="profileImg">
+                    <img src="" alt="">
+                </div>
+                <div class="profileInfo">
+                    <span>Jennifer Gelger</span>
+                    <span>News Editor</span>
+                </div>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="<?php echo $img_url ?>/home/blog-img-03.webp" alt="">
+            <span>Expert View</span>
+            <h4>2023 Land Rover Sport Review: A Recular Mix of Elegance and Awkwardness</h4>
+            <hr class="hr">
+            <div class="blogProfile flex">
+                <div class="profileImg">
+                    <img src="" alt="">
+                </div>
+                <div class="profileInfo">
+                    <span>Jennifer Gelger</span>
+                    <span>News Editor</span>
+                </div>
             </div>
         </div>
     </div>

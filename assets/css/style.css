@@ -2,12 +2,23 @@
 :root {
   --black: black;
   --red: #a30000;
+  --grey: #d9d9d9;
 }
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   font-family: "Poppins", sans-serif;
+}
+.display-none {
+  display: none;
+}
+.bold {
+  font-weight: bold;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }
 .container {
   width: 1349px;
@@ -323,4 +334,277 @@
 .homeWhyChooseUs > .whyChooseUs > .maintenance > img {
   width: 100%;
   height: 100px;
+}
+.homeBlogs {
+  width: 90%;
+  margin: auto;
+}
+.homeBlogs > .blogs {
+  width: 100%;
+}
+.homeBlogs > .blogs > .blog {
+  width: 30%;
+  margin: 1%;
+  padding: 2%;
+  box-shadow: 0 0 1px 0;
+}
+.homeBlogs > .blogs > .blog > img {
+  width: 100%;
+}
+.homeBlogs > .blogs > .blog > span,
+.homeBlogs > .blogs > .blog > h4,
+.homeBlogs > .blogs > .blog > hr,
+.homeBlogs > .blogs > .blog > .blogProfile {
+  margin-top: 10px;
+}
+.homeBlogs > .blogs > .blog > hr {
+  width: 30%;
+  border: 1px solid var(--red);
+}
+.inventoryBanner {
+  background-image: url(../../../images/Inventory/inventory-banner.webp);
+}
+.inventoryHeading {
+  width: 97%;
+  padding: 1%;
+  margin: 20px auto;
+  background-color: var(--red);
+  color: white;
+}
+.inventoryView > .tools {
+  width: 30%;
+}
+.inventoryView > .tools > form > .conditionSearch,
+.inventoryView > .tools > form > .makeSearch,
+.inventoryView > .tools > form > .yearSearch {
+  width: 90%;
+  padding: 4%;
+  margin: 4%;
+  background-color: var(--grey);
+  border-top: 8px solid var(--red);
+}
+.inventoryView > .tools > form input {
+  margin-right: 10px;
+}
+.inventoryView > .inventory {
+  width: 70%;
+}
+.inventoryView > .inventory > .stock {
+  width: 92%;
+  padding: 1%;
+  margin: auto;
+  margin-top: 1%;
+  box-shadow: 0 0 1px 0;
+}
+.inventoryView > .inventory > .stock > .invImg {
+  width: 39%;
+  padding: 1%;
+  background-image: url(../../../images/Inventory/inventory-img.webp);
+  background-position: center;
+  background-size: cover;
+}
+.inventoryView > .inventory > .stock > .invImg > img {
+  width: 100%;
+}
+.inventoryView > .inventory > .stock > .invContent {
+  width: 59%;
+  padding: 1%;
+  margin-bottom: 10px;
+}
+.inventoryView > .inventory > .stock > .invContent > .headingPrice > .heading {
+  width: 70%;
+}
+.inventoryView
+  > .inventory
+  > .stock
+  > .invContent
+  > .headingPrice
+  > .heading
+  > h3 {
+  text-align: left;
+}
+.inventoryView > .inventory > .stock > .invContent > .view-more {
+  float: right;
+}
+.inventoryView > .inventory > .stock > .invContent > .headingPrice > .priceTag {
+  width: 30%;
+  margin: auto;
+}
+.inventoryView
+  > .inventory
+  > .stock
+  > .invContent
+  > .headingPrice
+  > .priceTag
+  > .tag {
+  color: white;
+  font-weight: bold;
+  padding: 3%;
+  background-color: var(--red);
+  float: right;
+}
+.inventoryView > .inventory > .stock > .invContent > .carSpecs {
+  width: 100%;
+}
+.inventoryView > .inventory > .stock > .invContent > .carSpecs > .mileage,
+.inventoryView > .inventory > .stock > .invContent > .carSpecs > .fuelType,
+.inventoryView > .inventory > .stock > .invContent > .carSpecs > .engine {
+  width: 31%;
+  padding: 2%;
+}
+.serviceBanner {
+  background-image: url(../../../images/service/service-banner.webp);
+}
+.serviceBanner {
+  background-image: url(../../../images/service/service-banner.webp);
+}
+.serviceCenter > .content,
+.serviceCenter > .image {
+  width: 48%;
+  padding: 2%;
+  margin: auto;
+}
+.serviceCenter > .image > img {
+  width: 100%;
+}
+.serviceCenter > .content > h3 {
+  margin-top: 10px;
+}
+.serviceCenter > .content > .services {
+  width: 100%;
+}
+.serviceCenter > .content > .services > .list {
+  width: 48%;
+  padding: 2%;
+}
+.serviceCenter > .content > .services > .list > span > i {
+  padding: 1%;
+  margin-right: 5px;
+  background-color: var(--red) !important;
+}
+.aboutUs {
+  background-image: url(../../../images/Aboutus/about-banner.webp);
+}
+.mediaGallery {
+  color: white;
+  background-color: var(--red);
+  padding: 20px 0;
+}
+.mediaGallery > hr {
+  width: 20%;
+  margin: auto;
+  border: 2px solid var(--black);
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.mediaGallery > .gallery {
+  width: 60%;
+  margin: auto;
+}
+.mediaGallery > .gallery > .slide {
+  width: 31%;
+  margin: 2%;
+}
+.mediaGallery > .gallery > .slide > img {
+  width: 100%;
+  height: 200px;
+}
+.mediaGallery > .sliderHandles {
+  width: 8%;
+  margin: auto;
+}
+.mediaGallery > .sliderHandles > .handleRight,
+.mediaGallery > .sliderHandles > .handleLeft {
+  width: 46%;
+  padding: 2%;
+  margin: 2%;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid var(--black);
+  background-color: var(--black);
+  transition: 0.2s ease all;
+}
+.mediaGallery > .sliderHandles > .handleRight:hover,
+.mediaGallery > .sliderHandles > .handleLeft:hover {
+  background-color: inherit;
+  border: 2px solid var(--black);
+}
+.mediaGallery > .sliderHandles > .handleRight i {
+  rotate: 270deg;
+}
+.mediaGallery > .sliderHandles > .handleLeft i {
+  rotate: 90deg;
+}
+.customerTestimonials > .advantages,
+.customerTestimonials > .testimonials {
+  width: 50%;
+}
+.customerTestimonials > .advantages h2,
+.customerTestimonials > .testimonials h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+.customerTestimonials > .advantages > .tabs {
+  width: 80%;
+  margin: 20px auto;
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+}
+.customerTestimonials > .advantages > .tabs > .tabHeader > .icon {
+  width: 8%;
+  padding: 2%;
+}
+.customerTestimonials > .advantages > .tabs > .tabHeader > .icon > img {
+  width: 100%;
+}
+.customerTestimonials > .advantages > .tabs > .tabHeader > .tabHeading {
+  width: 83%;
+  padding: 2%;
+  text-align: center;
+}
+.customerTestimonials > .advantages > .tabs > .tabHeader > .openIcon {
+  width: 3%;
+  padding: 2%;
+  cursor: pointer;
+}
+.customerTestimonials > .advantages > .tabs > .tabInfo {
+  width: 98%;
+  padding: 2%;
+  text-align: center;
+}
+footer {
+  margin-top: 20px;
+  background-color: var(--red);
+  color: white;
+  display: flex;
+}
+footer > .footerLogo,
+footer > .footerBlogs,
+footer > .newsLetter {
+  width: 31%;
+  padding: 2%;
+}
+footer > .newsLetter > form > input {
+  width: 58%;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  padding: 2%;
+  padding-left: 4%;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+footer > .newsLetter > form > input:focus {
+  outline: none;
+}
+footer > .newsLetter > form > button {
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  color: white;
+  padding: 2%;
+  margin-left: -10px;
+}
+footer > .newsLetter > form > button:hover {
+  color: white;
 }
