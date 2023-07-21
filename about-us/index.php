@@ -143,6 +143,30 @@ include_once '../partials/header.php';
             </div>
         </div>
     </div>
-    <div class="testimonials"></div>
+    <div class="testimonials banner">
+        <h2>Customer Testimonials</h2>
+        <hr>
+        <div class="customer banner flex">
+            <div class="image">
+                <img src="<?php echo $img_url ?>/Aboutus/client-image.webp" alt="">
+            </div>
+            <div class="content">
+                <h3>Motor is absolutely wonderfull!</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo doloribus beatae non deleniti et ut
+                    numquam corporis, fugit consectetur ab autem nulla dolores dicta tenetur eveniet magni rem id
+                    dignissimos ad ipsum.</p>
+                <span>Baxton Ion</span>
+            </div>
+        </div>
+        <hr>
+        <div class="sliderBtns flex">
+            <div class="rightBtn">
+                <i class="fa-solid fa-angle-up" style="color: #ffffff;"></i>
+            </div>
+            <div class="leftBtn">
+                <i class="fa-solid fa-angle-up" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
 </div>
 <?php include_once '../partials/footer.php'; ?>

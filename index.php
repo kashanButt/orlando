@@ -38,7 +38,7 @@ include_once './partials/header.php';
         </form>
     </div>
 </div>
-<div class="homeBanner banner">
+<div class="homeBanner banner" style="margin-top: 0;">
     <div class="bannerContent">
         <h1>READY FOR YOUR DREAM<br />CAR</h1>
         <button class="btn">Browse Car</button>
