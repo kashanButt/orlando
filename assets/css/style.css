@@ -188,7 +188,7 @@ a {
   margin-top: 8%;
   position: relative;
   color: white;
-  background-image: url(../../../images/Home/home-banner.webp);
+  background-image: url(../images/home/home-banner.webp);
   display: flex;
 }
 .homeBanner > .bannerContent {
@@ -299,7 +299,7 @@ a {
 }
 .homeServiceInfo > .service {
   width: 30%;
-  background-image: url(../../../images/Home/homeServiceBg.webp);
+  background-image: url(../images/Home/homeServiceBg.webp);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -370,7 +370,7 @@ a {
   border: 1px solid var(--red);
 }
 .inventoryBanner {
-  background-image: url(../../../images/Inventory/inventory-banner.webp);
+  background-image: url(../images/Inventory/inventory-banner.webp);
 }
 .inventoryHeading {
   width: 97%;
@@ -407,7 +407,7 @@ a {
 .inventoryView > .inventory > .stock > .invImg {
   width: 39%;
   padding: 1%;
-  background-image: url(../../../images/Inventory/inventory-img.webp);
+  background-image: url(../images/Inventory/inventory-img.webp);
   background-position: center;
   background-size: cover;
 }
@@ -461,10 +461,10 @@ a {
   padding: 2%;
 }
 .serviceBanner {
-  background-image: url(../../../images/service/service-banner.webp);
+  background-image: url(../images/service/service-banner.webp);
 }
 .serviceBanner {
-  background-image: url(../../../images/service/service-banner.webp);
+  background-image: url(../images/service/service-banner.webp);
 }
 .serviceCenter > .content,
 .serviceCenter > .image {
@@ -491,7 +491,7 @@ a {
   background-color: var(--red) !important;
 }
 .aboutUs {
-  background-image: url(../../../images/Aboutus/about-banner.webp);
+  background-image: url(../images/Aboutus/about-banner.webp);
 }
 .mediaGallery {
   color: white;
@@ -616,7 +616,7 @@ a {
   rotate: 90deg;
 }
 .contactBanner {
-  background-image: url(../../../images/Contact/contact-banner.webp);
+  background-image: url(../images/Contact/contact-banner.webp);
 }
 .contactPageForm {
   width: 90%;

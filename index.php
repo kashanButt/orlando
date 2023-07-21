@@ -60,28 +60,28 @@ include_once './partials/header.php';
     <h2 class="heading">We Have</h2>
     <div class="companies flex">
         <div class="company">
-            <img src="<?php echo $img_url ?>/home/icons/pngegg (1).svg" alt="">
+            <img src="<?php echo $img_url ?>/home/Icons/pngegg-1.svg" alt="">
         </div>
         <div class="company">
-            <img src="<?php echo $img_url ?>/home/icons/pngegg (2).svg" alt="">
+            <img src="<?php echo $img_url ?>/home/Icons/pngegg-2.svg" alt="">
         </div>
         <div class="company">
-            <img src="<?php echo $img_url ?>/home/icons/pngegg (3).svg" alt="">
+            <img src="<?php echo $img_url ?>/home/Icons/pngegg-3.svg" alt="">
         </div>
         <div class="company">
-            <img src="<?php echo $img_url ?>/home/icons/pngegg (4).svg" alt="">
+            <img src="<?php echo $img_url ?>/home/Icons/pngegg-4.svg" alt="">
         </div>
         <div class="company">
-            <img src="<?php echo $img_url ?>/home/icons/pngegg (5).svg" alt="">
+            <img src="<?php echo $img_url ?>/home/Icons/pngegg-5.svg" alt="">
         </div>
         <div class="company">
-            <img src="<?php echo $img_url ?>/home/icons/pngegg (6).svg" alt="">
+            <img src="<?php echo $img_url ?>/home/Icons/pngegg-6.svg" alt="">
         </div>
         <div class="company">
-            <img src="<?php echo $img_url ?>/home/icons/pngegg (7) 1.svg" alt="">
+            <img src="<?php echo $img_url ?>/home/Icons/pngegg-7.svg" alt="">
         </div>
         <div class="company">
-            <img src="<?php echo $img_url ?>/home/icons/pngegg.svg" alt="">
+            <img src="<?php echo $img_url ?>/home/Icons/pngegg.svg" alt="">
         </div>
     </div>
 </div>

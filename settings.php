@@ -8,7 +8,7 @@ $settings = [
     ],
     'assets' => [
         'css' => __DIR__ . '/assets/css/',
-        'images' => 'http://localhost/projects/joseph/website/assets/images/',
+        'images' => 'http://localhost/projects/joseph/website/assets/images',
         'js' => __DIR__ . '/assets/js/',
     ]
 ];
