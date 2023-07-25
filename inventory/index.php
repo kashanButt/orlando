@@ -25,10 +25,10 @@ include_once '../partials/header.php';
         <form method="post">
             <div class="conditionSearch search">
                 <h3>Condition</h3>
-                <input type="radio" name="used" id="used">Used <br>
-                <input type="radio" name="new" id="new">New <br>
-                <input type="radio" name="reserved" id="reserved">Reserved <br>
-                <input type="radio" name="sold" id="sold">Sold <br>
+                <input type="radio" name="used" id="used">Used<br>
+                <input type="radio" name="new" id="new">New<br>
+                <input type="radio" name="reserved" id="reserved">Reserved<br>
+                <input type="radio" name="sold" id="sold">Sold<br>
             </div>
             <div class="makeSearch search">
                 <h3>Make</h3>

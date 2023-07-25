@@ -134,6 +134,7 @@ a {
 }
 .header-responsive {
   width: 100%;
+  display: none;
   z-index: 100;
 }
 .header-responsive > .hamburger {
@@ -324,7 +325,7 @@ a {
 }
 .homeServiceInfo > .service {
   width: 30%;
-  background-image: url(../images/Home/homeServiceBg.webp);
+  background-image: url(../images/home/homeServiceBg.webp);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;

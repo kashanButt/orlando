@@ -31,6 +31,9 @@
   }
 }
 @media (min-width: 360px) and (max-width: 640px) {
+  .header-responsive {
+    display: block;
+  }
   .header > .upperHeader {
     display: none;
   }
@@ -40,10 +43,17 @@
   h1 {
     font-size: 15px !important;
   }
+  h2 {
+    font-size: 12px !important;
+  }
+  h3 {
+    font-size: 10px !important;
+  }
   p,
   button,
   input,
-  li {
+  li,
+  span {
     font-size: 8px;
   }
   .flex {
@@ -105,6 +115,21 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+  }
+  .inventoryView > .tools > form input {
+    width: 10px;
+  }
+  .inventoryView > .tools > form > .conditionSearch,
+  .inventoryView > .tools > form > .makeSearch,
+  .inventoryView > .tools > form > .yearSearch {
+    margin: 0;
+  }
+  .inventoryView > .inventory > .stock > .invContent > .carSpecs {
+    flex-direction: revert;
+  }
+  .headingPrice {
+    display: flex;
+    flex-direction: revert;
   }
   .serviceCenter > .content,
   .serviceCenter > .image {
