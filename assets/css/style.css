@@ -132,6 +132,31 @@ a {
   text-align: right;
   cursor: pointer;
 }
+.header-responsive {
+  width: 100%;
+  z-index: 100;
+}
+.header-responsive > .hamburger {
+  width: 98%;
+  padding: 1%;
+  background-color: var(--red);
+  text-align: right;
+}
+.header-responsive > .hamburger p {
+  font-size: 15px;
+  cursor: pointer;
+}
+.header-responsive > .responsive-menu {
+  width: 98%;
+  padding: 2%;
+  background-color: var(--red);
+  text-align: center;
+}
+.header-responsive > .responsive-menu li {
+  font-size: 8px;
+  margin: 10px 0;
+  color: white !important;
+}
 .homeSearchOptions {
   width: 95%;
   margin: 20px auto;

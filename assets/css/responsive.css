@@ -10,10 +10,10 @@
   }
 }
 @media (min-width: 641px) and (max-width: 1100px) {
-  .headerNav{
+  .headerNav {
     flex-direction: column;
   }
-  .header > .upperHeader{
+  .header > .upperHeader {
     display: none;
   }
   .header > .headerNav > .navigation {
@@ -31,8 +31,133 @@
   }
 }
 @media (min-width: 360px) and (max-width: 640px) {
-  .container {
-    width: 360px;
+  .header > .upperHeader {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  h1 {
+    font-size: 15px !important;
+  }
+  p,
+  button,
+  input,
+  li {
+    font-size: 8px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .homeSearchOptions {
+    width: 100%;
+    margin: 0;
+    margin-top: 7%;
+  }
+  .homeSearchOptions > .searchOptions > form > .condition,
+  .homeSearchOptions > .searchOptions > form > .make,
+  .homeSearchOptions > .searchOptions > form > .model,
+  .homeSearchOptions > .searchOptions > form > .year,
+  .homeSearchOptions > .searchOptions > form > .searchBtn {
+    width: 98%;
+    margin: 10px 0;
+  }
+  .homeSearchOptions > .searchOptions > form > .searchBtn {
+    width: 97.7%;
+  }
+  .homeBanner {
+    height: 280px;
+    margin-top: 6%;
+  }
+  .homeCarCompanies > .companies {
+    flex-direction: row;
+  }
+  .homeCarCompanies > .companies > .company {
+    height: 32px;
+  }
+  .homeRecentCars > .recentCars > .cars {
+    width: 80%;
     margin: auto;
+  }
+  .homeServiceInfo > .service {
+    width: 95%;
+  }
+  .homeWhyChooseUs > .whyChooseUs > .financing,
+  .homeWhyChooseUs > .whyChooseUs > .brands,
+  .homeWhyChooseUs > .whyChooseUs > .trust,
+  .homeWhyChooseUs > .whyChooseUs > .maintenance {
+    width: 95%;
+  }
+  .homeBlogs > .blogs > .blog {
+    width: 78%;
+    margin: 10px auto;
+  }
+  .inventoryView > .tools {
+    width: 100%;
+  }
+  .inventoryView > .inventory {
+    width: 100%;
+  }
+  .inventoryView > .inventory > .stock {
+    flex-direction: row;
+  }
+  .inventoryView > .tools > form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .serviceCenter > .content,
+  .serviceCenter > .image {
+    width: 92%;
+  }
+  .serviceCenter > .content > .services > .list {
+    width: 98%;
+  }
+  .serviceCenter > .content > .services > .list > span {
+    font-size: 8px;
+  }
+  .mediaGallery > .gallery > .slide {
+    width: 98%;
+  }
+  .mediaGallery > .sliderHandles {
+    width: 10%;
+    flex-direction: row;
+    margin: auto;
+  }
+  .customerTestimonials > .advantages,
+  .customerTestimonials > .testimonials {
+    width: 100%;
+  }
+  .tabHeader {
+    flex-direction: row;
+  }
+  .customerTestimonials > .testimonials > .customer > .image {
+    width: 50%;
+  }
+  .customerTestimonials > .testimonials > .sliderBtns {
+    float: none;
+    flex-direction: row;
+    margin: auto;
+  }
+  .contactPageForm > .form > form > .section {
+    width: 100%;
+  }
+  .contactPageForm > .form > form > .section > .sub-section {
+    width: 100%;
+  }
+  .contactPageForm > .form > form > .section > textarea {
+    width: 82%;
+  }
+  .contactPageAddress > .address,
+  .contactPageAddress > .location {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer > .footerLogo,
+  footer > .footerBlogs,
+  footer > .newsLetter {
+    width: 96%;
   }
 }

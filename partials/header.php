@@ -18,6 +18,24 @@
 
 <body>
     <div class="container">
+        <div class="header-responsive sticky">
+            <div class="hamburger">
+                <p class="hamburgerIcon" onclick="toggleDisplay()">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </p>
+            </div>
+            <div class="responsive-menu">
+                <nav>
+                    <ul>
+                        <li><a href="<?php echo $base_url; ?>">Home</a></li>
+                        <li><a href="<?php echo $base_url; ?>\inventory">Inventory</a></li>
+                        <li><a href="<?php echo $base_url; ?>\services">Services</a></li>
+                        <li><a href="<?php echo $base_url; ?>\about-us">About Us</a></li>
+                        <li><a href="<?php echo $base_url; ?>\contact-us">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         <div class="header sticky">
             <div class="upperHeader">
                 <div class="icons">
